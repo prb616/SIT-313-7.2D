@@ -1,0 +1,57 @@
+/* .custom-header styles */
+.custom-header {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Text color */
+  padding: 10px;
+  text-align: center;
+  font-size: 20px; /* Larger font size for header */
+}
+
+/* Navigation styles */
+.custom-header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Display navigation items in a row */
+  justify-content: center; /* Center-align navigation items */
+  margin-top: 20px; /* Add some top margin */
+}
+
+.custom-header nav ul li {
+  margin-right: 20px;
+}
+
+.custom-header nav ul li:last-child {
+  margin-right: 0; /* Remove margin from the last navigation item */
+}
+
+.custom-header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.custom-header nav ul li a:hover {
+  color: #007bff; /* Change text color on hover */
+}
+
+/* Style the 'Sign In' button */
+.custom-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px; /* Increase padding for a more prominent button */
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
+.custom-button:active {
+  background-color: #003f80;
+  transform: translateY(2px);
+}

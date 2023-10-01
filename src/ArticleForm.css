@@ -1,0 +1,131 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Style for article headers */
+.articleHeader h2 {
+    margin: 5px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style for the title section */
+.title {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.title label {
+    margin: 5px;
+}
+
+.title input {
+    width: 400px;
+    padding: 5px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    
+}
+
+/* Style for the abstract section */
+.Abstract label {
+    display: block;
+    margin: 5px;
+}
+
+.Abstract input {
+    height: 50px;
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    width: 50%;
+}
+
+/* Style for the article content section */
+.Article label {
+    margin: 5px;
+    display: block;
+}
+
+.Article textarea {
+    width: 70%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.Article input[type="text"] {
+    width: 70.3%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Style for the tag section */
+.Tag label {
+    display: block;
+    margin: 5px;
+}
+
+.Tag input {
+    height: 15px;
+    width: 750px;
+    padding: 5px;
+    border: 1px solid #e8cece;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Style for the button section */
+.Button {
+    display: block;
+    width: 10%;
+    margin: auto;
+    margin-bottom: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Button:hover {
+    background-color: #0056b3;
+    /* Adding a smooth transition effect */
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Style for the image section */
+.img h2 {
+    margin: 5px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.inputs{
+    width: 780px;
+    margin: 10px;
+}
+.tinputs{
+    width: 780px;
+    height: 120px;
+    margin: 10px;
+}

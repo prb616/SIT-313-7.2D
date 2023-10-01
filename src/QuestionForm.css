@@ -1,0 +1,104 @@
+/* Style for the entire QuestionForm container */
+.question-form {
+  background-color: #ffffff; /* Change the background color to white */
+  border: 1px solid #ddd; /* Use a softer border color */
+  border-radius: 8px; /* Add more rounded corners */
+  padding: 20px;
+  margin: 20px auto; /* Center the container horizontally and add spacing */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  max-width: 800px; /* Limit the maximum width */
+}
+
+/* Style for the title input */
+.title {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px; /* Increase padding for better input appearance */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px; /* Adjust font size for better readability */
+}
+
+/* Style for the description input */
+.description {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px; /* Increase padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style for the tags input */
+.tags {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px; /* Increase padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submit-button{
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 24px; /* Increase padding for a more prominent button */
+  cursor: pointer;
+  font-weight: bold; /* Add font weight for emphasis */
+  font-size: 18px;
+}
+/* Style for the Post button */
+.post-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 24px; /* Increase padding for a more prominent button */
+  cursor: pointer;
+  font-weight: bold; /* Add font weight for emphasis */
+  font-size: 18px; /* Adjust font size for better visibility */
+}
+
+.post-button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the image container */
+.image-container {
+  text-align: center;
+}
+
+/* Style for the image input */
+input[type="file"] {
+  display: inline-block;
+  margin-left: 10px;
+  background-color: #bbd7f6;
+  padding: 8px; /* Increase padding */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the image upload button */
+.image-upload-button {
+  background-color: #44df10;
+  color: white;
+  padding: 12px 24px; /* Increase padding for consistency */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold; /* Add font weight for emphasis */
+  font-size: 16px; /* Adjust font size for better readability */
+  margin: 10px 0;
+}
+
+.image-upload-button:hover {
+  background-color: #0b1f34;
+}
+
+.form-field textarea{
+  font-size: 15px;
+  font-family:  "Roboto", sans-serif;
+}

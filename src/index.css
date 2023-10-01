@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Set a background color for the entire page */
+  color: #333; /* Set a default text color for the entire page */
+  line-height: 1.6; /* Improve text readability with increased line-height */
+}
+
+/* Apply a common style to buttons */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px; /* Increase padding for a more prominent button */
+  cursor: pointer;
+  font-weight: bold; /* Add font weight for emphasis */
+  font-size: 16px; /* Adjust font size for better readability */
+  transition: background-color 0.3s, transform 0.2s;
+  margin: 10px; /* Add margin for spacing between buttons */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #003f80;
+  transform: translateY(2px);
+}
